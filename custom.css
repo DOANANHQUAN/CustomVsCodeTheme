@@ -1,0 +1,70 @@
+.mtk5 {
+  font-family: "Operator Mono";
+  font-style: italic;
+  font-weight: 300;
+}
+.mtki {
+  font-style: normal;
+}
+.mtku {
+  text-decoration: none;
+}
+.mtk1 {
+  color: rgb(227 118 235);
+}
+.mtk13 {
+  color: #6ab2e4;
+}
+.detected-link {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 500;
+  font-family: "Yu Mincho", "Microsoft JhengHei";
+  color: rgb(14, 147, 243);
+  font-style: italic;
+}
+.mtk15 {
+  color: #ff4ec1;
+}
+.mtk4 {
+  background: linear-gradient(to bottom right, #4a6aaa, #a6b7d8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Sf Mono", "Fira Code";
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #fc6c8f,
+    #ff2ced,
+    #ffb86c,
+    #2cccff,
+    #20e3b2,
+    #ffcc70,
+    #c850c0,
+    #4158d0
+  );
+  animation: gradient 5s ease alternate infinite;
+  height: 2, 05px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
